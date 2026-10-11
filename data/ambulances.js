@@ -23,6 +23,22 @@ const ambulances = [
     longitude: 74.8530,
     status: "Busy",
   },
+  {
+    id: "AMB-104",
+    driver: "Ramesh Poojary",
+    phone: "9876543213",
+    latitude: 12.9250,
+    longitude: 74.8420,
+    status: "Available",
+  },
+  {
+    id: "AMB-105",
+    driver: "Kiran Shetty",
+    phone: "9876543214",
+    latitude: 12.8980,
+    longitude: 74.8700,
+    status: "Available",
+  },
 ];
 
 module.exports = ambulances;
