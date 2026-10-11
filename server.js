@@ -6,6 +6,7 @@ const authRoutes = require("./routes/authRoutes");
 const emergencyRoutes = require("./routes/emergencyRoutes");
 const ambulanceRoutes = require("./routes/ambulanceRoutes");
 const dispatchRoutes = require("./routes/dispatchRoutes");
+const hospitalRoutes = require("./routes/hospitalRoutes");
 
 const app = express();
 
@@ -25,7 +26,9 @@ app.use("/api/auth", authRoutes);
 app.use("/api/emergencies", emergencyRoutes);
 app.use("/api/ambulances", ambulanceRoutes);
 app.use("/api/dispatch", dispatchRoutes);
+app.use("/api/hospitals", hospitalRoutes);
 
+// Start server
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, "0.0.0.0", () => {
