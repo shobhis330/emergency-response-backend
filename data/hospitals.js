@@ -20,6 +20,20 @@ const hospitals = [
     emergency: "Emergency & Trauma",
     status: "Available",
   },
+  {
+    id: "HOS-104",
+    name: "Yenepoya Medical College Hospital",
+    location: "Deralakatte",
+    emergency: "Emergency, ICU & Trauma",
+    status: "Available",
+  },
+  {
+    id: "HOS-105",
+    name: "Unity Hospital",
+    location: "Falnir",
+    emergency: "Emergency & ICU",
+    status: "Available",
+  },
 ];
 
 module.exports = hospitals;
